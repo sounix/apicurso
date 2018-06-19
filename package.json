@@ -1,0 +1,27 @@
+{
+  "name": "apicurso",
+  "version": "1.0.0",
+  "description": "API Rest para Curso",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sounix/apicurso.git"
+  },
+  "author": "Aldrin Gonzalez Cancino <sounix@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sounix/apicurso/issues"
+  },
+  "homepage": "https://github.com/sounix/apicurso#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "morgan": "^1.9.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.17.5"
+  }
+}
